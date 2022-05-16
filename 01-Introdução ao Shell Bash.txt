@@ -1,0 +1,175 @@
+Primeira aula
+Data desta aula, 30 de Abril de 2022
+Horário desta aula, início das 08:56 ás 10:33
+
+____________ Do minuto 00:00 ao 04:59
+
+Saudações de bom dia, orientações via chat para ativação do audio.
+
+____________ Do minuto 05:00 ao 09:59
+
+Rogério testa o audio, e cede mais tempo para acessarem a aula.
+
+Aluno via mic: acessou vm de nome "cliente interno". Rogério confirmou que esta é a vm a ser usada na aula.
+
+Dúvida sobre o ambiente de acesso, entre ambiente gráfico e linha de comando.
+
+Enquanto não falarem pode se deixar o microfone ativado, orientado deixar mudo pra evitar vasamentos de audio.
+
+____________ Do minuto 10:00 ao 14:59
+
+Confirmação de audio de aluno.
+
+Aberuta do curso, boas vindas.
+
+Primeiro módulo: Linux Administrator.
+Segundo módulo: Linux Engineer.
+
+Dois módulos com previsão de 4 meses para conclusão.
+
+Não foi considerados feriados, caso caiam nos sábados.
+
+Dias das aulas ao vivo: sábados.
+
+Horário das aulas ao vivo: início 09:00 terminao 16:00
+
+Contabilizadas 6 horas de aula.
+
+Intervalo para almoção de 1 hora, regularmente entre as 13 e 14 horas.
+
+Pelas manhãs por volta das 10:30, será feita uma pausa de 15 minutos.
+
+As tardes por terem 2 horas, será sem intervalo. Somente pela manhã a pausa de 15 minutos.
+
+As aulas são gravadas, pouco após as 16 horas quando encerradas serão postadas, ficam disponíveis no Drive.
+
+Instrutor Rogério Martinho.
+
+Experiente com Linux e mais de 10 anos ministra aulas.
+
+https://www.linkedin.com/in/rogerio-martinho-ramos-da-silva-47778154/
+
+Escopo do treinamento com foco em:
+
++ Certificação
+
++ Mercado de Trabalho
+
+Treinamento surte efeito tendo:
+
++ Dedicação
+
++ Foco
+
+Exige foco por ser um treinamento ao vivo que fica gravado.
+
+Ausência de conteúdos vistos nas aulas ocorrem, por falta de acompanhamento, perda de aulas, pois o ritmo é intenso.
+
+Alunos podem se perderem por falta de foco.
+
+____________ Do minuto 15:00 ao 19:39
+
+É comum a turma iniciar com um número, e durante o período reduzir a quantidade por perda de foco.
+
+Associação de aprendizagem e prática é uma forma de retenção, utilização e vivência diária ajuda na ampliação do conhecimento.
+
+O pré requisito é um conhecimento básico.
+
+Duas formas de participação da aula ao vivo:
+
++ Microfone
+
++ Chat
+
+Durante uma explicação aguarde, sugerido o recurso: Levantar a mão e aguardar.
+
+Acordo: existem conteúdos que possam exigir uma pesquisa, então pediu-se "paciência" e "compreensão", mas será pesquisado a respeito caso seja necessário.
+
+Inexistente um detentor de todo conhecimento sobre o assunto.
+
+É previsto na aula inicial perda de tempo com empecilhos e dificuldades técnicas.
+
+Nesta ocasião foi tranquila, isto reverte-se em melhor aproveitamento de tempo do treinamento.
+
+____________ Do minuto 19:40 ao 24:49
+
+INFORMAÇÕES REFERENTES AO TREINAMENTO
+
+https://forceclass-00.linuxforce.com.br/
+
+Neste site acima, O Force Class esta o link de acesso a aula ao vivo.
+
+Também um link do grupo no whatsapp que é usado durante o treinamento, comunicação rápida, voltado para o assunto do curso.
+
+Estar no grupo é opcional.
+
+As apresentações pessoais, e contatos com colegas, serão feitas pelo grupo já que a turma tem muitos alunos, logo toma tempo de apresentação de conteúdos.
+
+Estas interações para acontecer antes e pós aula, para manter foco na aprendizagem.
+
+HORÁRIOS
+
+As 9:00 incia aula, existe uma tolerância entre 09:03 no máximo 09:05 a será iniciada apresentação de conteúdo.
+
++ O Curso é sequêncial, e o conhecimento esta encadeado com o aprendizado anterior, tópicos vistos em aula passadas não serão ministrados revistos.
+
++ Caso determinado tópico foi abordado e faltou referência de aula anterior por ausência ou atraso, é fortemente recomendado que assista novamente a aula anterior. Tirar as dúvidas e preparar-se para a próxima aula, e prosseguir no mesmo item a ser explicado.
+
++ Caso chegar atrasado, em 15 minutos por exemplo, é complexo ser retomado o conteúdo que foi apresentado, e existe a dificuldade em ensinar novamente, sendo que os alunos pontuais são prejudicados no andamento dos estudos, e por respeito aos que assistiram não ficarem desmotivados.
+
++ Não é uma questão de intransigência ou desrespeito com que se atrasou, mas respeito com os que foram pontuais.
+
++ Existe um critério, que é rigoroso quando trata-se de horário.
+
+Após as 16 horas serão postadas os arquivos de vídeo das aulas gravadas.
+
+Abaixo o link do site com o redirecionamento para o Drive com as aulas gravadas.
+
+https://forceclass-00.linuxforce.com.br/mod/url/view.php?id=7852
+
+Link do Google Drive com as aulas gravadas em MP4 para download.
+
+https://drive.google.com/drive/folders/1x4nxUtWgBhG2gh4cPcEQDyRbs3m7DhwF
+
+____________ Do minuto 24:50 ao 28:11
+
+O projeto curso esta apresentado em uma imagem que esta no link abaixo.
+
+https://forceclass-00.linuxforce.com.br/mod/resource/view.php?id=7853
+
+Esta visão é do que será entregue no final do treinamento, podendo existir variações que podem ser pequenas.
+
+A apresentação de um ambiente virtualizado para criação, configuração dinâmica das máquinas, que simula uma rede interna.
+
+Existem muitos virtualizadores de máquinas, foi instituido um padrão, se existir segurança em administrar estas VMs é permitido o uso no curso, sem necessidade de intervenção, e garantia do aluno que se propõe em usar diferentemente.
+
+Neste cenário o Virtual Box é o virtualizador.
+
+As máquinas virtuais para o projeto estão algumas instaladas, disponíveis, mas sem configurações necessárias e possivelmente incompletas. 
+
+A instalação do Linux esta simples de ser feita atualmente, e até pode ser abordado o processo de instalação posteriormente.
+
+As VMs disponíveis que estão instaladas, vem "cruas", sem nada configurado, pode faltar endereçamento ip, estarem com nomes inadequados, sem serviços
+
+O objetivo do curso Linux Administrator, começa conhecendo como administrar o sistema, depois com outro treinamento chamado de Linux Engineer, onde neste serão implementados e configurados serviços.
+
+____________ Do minuto 28:12 ao 28:11
+
+NOMES DAS MÁQUINAS
+
+Cliente externo: simula uma máquina fora da estrutura, com endereçamento ip específico.
+
+Gateway: desempenha papel de Firewall e Proxy dentro da rede. Inclusive, tem três placas de rede. Com alguns serviços configurados dentro dela.
+
+Intranet: Voltada para servidor Web, DNS.
+
+Datacenter: Um servidor de email, OpenLdap.
+
+Storage: Armazenamento (RAID, LVM, NFS), NGNIX.
+
+Cliente: Windows, implementação de samba.
+
+Cliente Interno: Como notebook do usuário diário, apartir desta conecta-se em outras máquinas da infra estrutura.
+
+29:49
+
