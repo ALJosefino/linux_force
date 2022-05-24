@@ -109,9 +109,9 @@ Estas interações para acontecer antes e pós aula, para manter foco na aprendi
 
 HORÁRIOS
 
-As 9:00 incia aula, existe uma tolerância entre 09:03 no máximo 09:05 a será iniciada apresentação de conteúdo.
+As 9:00 inicia a aula, existe uma tolerância entre 09:03 no máximo 09:05 a será iniciada apresentação de conteúdo.
 
-+ O Curso é sequêncial, e o conhecimento esta encadeado com o aprendizado anterior, tópicos vistos em aula passadas não serão ministrados revistos.
++ O Curso é sequêncial, e o conhecimento esta encadeado com o aprendizado anterior, tópicos vistos em aulas passadas não serão ministrados novamente ou revistos.
 
 + Caso determinado tópico foi abordado e faltou referência de aula anterior por ausência ou atraso, é fortemente recomendado que assista novamente a aula anterior. Tirar as dúvidas e preparar-se para a próxima aula, e prosseguir no mesmo item a ser explicado.
 
@@ -141,7 +141,7 @@ Esta visão é do que será entregue no final do treinamento, podendo existir va
 
 A apresentação de um ambiente virtualizado para criação, configuração dinâmica das máquinas, que simula uma rede interna.
 
-Existem muitos virtualizadores de máquinas, foi instituido um padrão, se existir segurança em administrar estas VMs é permitido o uso no curso, sem necessidade de intervenção, e garantia do aluno que se propõe em usar diferentemente.
+Existem muitos virtualizadores de máquinas, neste treinamento foi instituido um padrão, se existir segurança em administrar outras gerenciadoras de VMs é permitido o uso no curso, sem necessidade de intervenção, e garantia do aluno que se propõe em usar diferentemente.
 
 Neste cenário o Virtual Box é o virtualizador.
 
@@ -153,7 +153,7 @@ As VMs disponíveis que estão instaladas, vem "cruas", sem nada configurado, po
 
 O objetivo do curso Linux Administrator, começa conhecendo como administrar o sistema, depois com outro treinamento chamado de Linux Engineer, onde neste serão implementados e configurados serviços.
 
-____________ Do minuto 28:12 ao 28:11
+____________ Do minuto 28:12 ao 33:35
 
 NOMES DAS MÁQUINAS
 
@@ -167,9 +167,289 @@ Datacenter: Um servidor de email, OpenLdap.
 
 Storage: Armazenamento (RAID, LVM, NFS), NGNIX.
 
-Cliente: Windows, implementação de samba.
+Cliente: Windows, para implementação de samba.
 
 Cliente Interno: Como notebook do usuário diário, apartir desta conecta-se em outras máquinas da infra estrutura.
 
 29:49
+
+No video de introdução é orientado deixar preparada a máquina: Cliente Interno
+
+https://forceclass-00.linuxforce.com.br/mod/resource/view.php?id=7854
+
+Esta máquina é usada na primeira aula. Para esta, qualquer máquina Linux atende as necessidades exigidas.
+
+A máquina com Windows no começo do curso esta indisponível, pois será usada no segundo módulo. Sendo desnecessária no primeiro módulo.
+
+No final do treinamento a topologia exibida, será implementada e configurado.
+
+
+
+https://forceclass-00.linuxforce.com.br/mod/resource/view.php?id=7854
+
+Assista o vídeo acima para preparar o ambiente antes de realizar a primeira aula. 
+
+No link acima, acessa o vídeo para preparação de ambiente.
+
+PREPARAÇÃO DO AMBIENTE é visto:
+
++ Instalação do Virtual Box
+https://forceclass-00.linuxforce.com.br/mod/url/view.php?id=7855
+
+
++ Download de máquinas virtualizadas
+https://forceclass-00.linuxforce.com.br/mod/url/view.php?id=7856
+Laboratório Virtual
+
++ Importação das máquinas virtualizadas dentro do Virtual Box
+
+Duas máquinas virtualizadas foram retiradas
+- Storage Centos7.ova
+- Gateway Centos7.ova
+
+As máquinas virtuais do treinamento para este momento são estas:
+
+ASF Cliente Externo Debian.ova
+ASF Cliente Interno.ova
+ASF Datacenter.ova
+ASF Gateway.ova
+ASF Intranet.ova
+ASF Storage.ova
+
+A máquina virtual mais utilizada durante o treinamento será:
+ASF Cliente Interno.ova
+A partir desta conexões com outras máquinas serão feitas.
+É a simulação do ambiente real.
+
+Fazer Download destas também:
+
+ASF Cliente Externo Debian.ova
+ASF Datacenter.ova
+ASF Gateway.ova
+ASF Intranet.ova
+ASF Storage.ova
+
+Depois de feito o download, importar dentro do Virtual Box.
+
+Conforme orientado neste video do link abaixo:
+https://forceclass-00.linuxforce.com.br/mod/resource/view.php?id=7854
+
+CASO EXISTAM DÚVIDAS E/OU DIFICULDADES:
+Por favor informar.
+
+____________ Do minuto 33:36 ao 36:05
+
+SLIDES APRESENTADO EM AULA
+
+Primeiros Passos
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14847/mod_resource/content/5/Slides%20-%20Primeiros%20Passos.pdf
+
+INFORMAÇÕES IMPORTANTES
+
+Os usuários: 
+
+analista 
+root 
+
+possuem senha igual para facilitar a autenticação, a senha única é:
+
+LinuxForce01
+
+L maiúscula
+F maiúscula
+
+demais letras minúsculas
+
+Algarismos 0 Zero e 1 Um, os dois últimos caracteres.
+
+* OBS: O Linux é case sensitive, então respeite a definição de letras maiúsculas e minúsculas!
+
+As duas máquinas virtuais abaixo não precisam ser baixadas:
+
+- Storage Centos7.ova
+- Gateway Centos7.ova
+
+Em outro momento foi necessários usar estas por problemas no repositório.
+
+As utilizadas serão as abaixo:
+
++ ASF Gateway.ova
++ ASF Storage.ova
+
+Pode ser usado em sistema operacional Windows, e virtualizar o sistema operacional Linux.
+
+Na demonstração do Rogério, ele usa Linux mas informou que podem usar MacOS também, importante que use o Virtual Box, que por ele tudo bem.
+
+____________ Do minuto 36:06 ao 38:40
+
+CONTEÚDO
+
+Conteúdo crescente, conforme se aprende vai se utilizando.
+
+Usar máquina Linux, com execeção nesta aula de usar qualquer uma desde que seja Linux.
+
+Sugerido: Cliente Interno
+
+Acessar o arquivo com extensão .ova (ponto ova), com o Virtual Box já instalado, ao clicar duas vezes sobre o ícone do arquivo da virtual machine abre automaticamente o Virtual Box permitindo importar o appliance.
+
+Pode ser alterado o nome. No exemplo, foi renomeado para ASF Cliente Interno - Sab.
+
+ALterar recursos:
+
+Memória
+
+De 1024 MB para mais, no mínimo 1024 para esta, outras poderão ter menor quantidade de memória RAM.
+Se quiser colocar 2048, e tiver disponíveis é possível.
+
+CPU
+
+De 1 para 2 CPUs.
+
+Após importar, é possível alterar no Virtual Box as configurações do appliance.
+
+____________ Do minuto 38:41 ao 41:55
+
+PRINCIPAIS ITENS ESTUDADOS NESTE PRIMEIRO MÓDULO, que é de System Administrator:
+
+Escopo Macro
+
+
+01 Slides - Trabalhando na Shell Bash
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14848/mod_resource/content/11/Slides%20Aula%201%20-%20Trabalhando%20na%20Shell%20Bash.pdf
+
+Conhecendo e gerenciando Shell, BASH,
+
+Trabalhar com linha de comando,
+
+Comandos de ajuda,
+
+Documentação,
+
+02 Slides - Ajuda Interna e Documentação
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14850/mod_resource/content/11/Slides%20Aula%202%20-%20Ajuda%20Interna%20e%20Documenta%C3%A7%C3%A3o%20do%20Sistema.pdf
+
+Manipulação de dados de texto,
+
+03 Slides - Manipulação de Dados e Regex - Parte 1
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14853/mod_resource/content/7/Slides%20Aula%203%20-%20Manipula%C3%A7%C3%A3o%20de%20Dados%20e%20Regex.pdf
+
+Uso de Expressões Regulares,
+
+Buscas de arquivos,
+
+04 Slides - Manipulação de Dados e Regex - Parte 2
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14853/mod_resource/content/7/Slides%20Aula%203%20-%20Manipula%C3%A7%C3%A3o%20de%20Dados%20e%20Regex.pdf
+
+Editores de texto, vim e sed,
+
+05 Slides - Busca Avançada e Editores
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14858/mod_resource/content/9/Slides%20Aula%205%20-%20Busca%20Avan%C3%A7ada%20e%20Editores.pdf
+
+Gerenciamento de dispositivos, conhecendo e obtendo informações destes
+
+06 Slides - Gerenciando Dispositivos de Hardware - Parte 1
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14862/mod_resource/content/5/Slides%20Aula%206%20-%20Ger%C3%AAnciando%20Dispositivos%20de%20Hardware%20-%20Parte%201.pdf
+
+Implementação de infraestrutura, storages, particionamento de discos, preparação, migração de file system,
+
+07 Slides - Implementando Infraestrutura de Storage
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14867/mod_resource/content/6/Slides%20Aula%207%20-%20Implementando%20Infraestrutura%20de%20Discos.pdf
+
+checagem de integridade de informações, compactadores,
+
+08 Slides - Migração de Filesystem com Integridade de Dados
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14872/mod_resource/content/6/Slides%20Aula%208%20-%20Migra%C3%A7%C3%A3o%20de%20Filesystem%20com%20Integridade%20de%20Dados.pdf
+
+Preparação da rede, comandos para troubleshooting de rede, configuração e endereçamento,
+
+09 Slides - Configuração de Rede Interna
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14876/mod_resource/content/5/Slides%20Aula%2009%20-%20Configura%C3%A7%C3%A3o%20de%20Rede%20Interna.pdf
+
+Configuração do serviço de DHCP para entrega de IPs dinâmicos,
+
+Configuração de Gateway, gerenciamento de requisições para sair da rede e acessar outras,
+
+10 Slides - Implementação de Servidor DHCP e Configuração de Rede Externa
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14881/mod_resource/content/6/Slides%20Aula%2010%20-%20DHCP%20Server%20e%20Rede%20Externa.pdf
+
+Instalação de pacotes em distribuições Debian e CentOS, escolhidas estas porque são amplamente utilizadas hoje, e na parte de formato de pacotes, como também são cobrados conhecimentos destas distribuições em provas de certificações.
+
+11 Slides - Sistemas de Gerenciamento de Pacotes Debian
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14885/mod_resource/content/9/Slides%20Aula%2011%20-%20Sistemas%20de%20Gerenciamento%20de%20Pacotes%20Debian.pdf
+
+12 Slides - Sistemas de Gerenciamento de Pacotes Red Hat
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14890/mod_resource/content/9/Slides%20Aula%2012%20-%20Sistemas%20de%20Gerenciamento%20de%20Pacotes%20Red%20Hat.pdf
+
+Gerenciamento de ambientes Linux, 
+
+Compilação de pacotes, 
+
+Cerenciamento de módulos, bibliotecas, 
+
+13 - Slides - Administração de Ambiente Linux
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14896/mod_resource/content/5/Slides%20Aula%2013%20-%20Administracao%20de%20Ambiente%20Linux.pdf
+
+Cerenciamento de processos,
+
+14 - Slides - Gerenciamento de Processos
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14900/mod_resource/content/6/Slides%20Aula%2014%20-%20Gerenciamento%20de%20Processos.pdf
+
+Gerenciamento de usuários, grupos, permissionamentos,
+
+15 - Slides - Gerenciamento de Usuários e Grupos de Sistema
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14904/mod_resource/content/7/Slides%20Aula%2015%20-%20Gerenciamento%20de%20Usu%C3%A1rios%20e%20Grupos.pdf
+
+16 - Slides - Sistema de Permissões Unix
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14908/mod_resource/content/9/Slides%20Aula%2016%20-%20Sistema%20de%20Permiss%C3%B5es%20Unix.pdf
+
+Shell Script, com o previo conhecimento de bash associado ao aprendizado de linguagem do Shell Script,
+
+17 - Slides - Programação em Shell Script
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14910/mod_resource/content/9/Slides%20Aula%2017%20-%20Programa%C3%A7%C3%A3o%20Shell%20Script.pdf
+
+Gerenciamento de serviços systemd e links,
+
+18 - Hardlinks, Softlinks e Sistema de Inicialização SystemD
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14913/mod_resource/content/12/Slides%20Aula%2018%20-%20Hardlinks%2C%20SoftLinks%20e%20SystemD.pdf
+
+Criptografia de partições,
+
+19 Slides - Implementando Automount sobre Partições Criptografadas
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14918/mod_resource/content/10/Slides%20Aula%2019%20-%20Implementando%20Automount%20sobre%20Parti%C3%A7%C3%B5es%20Criptografadas%20%281%29.pdf
+
+Gerenciamento de chaves via ssh,
+
+20 Slides - Acesso Seguro com SSH por Chaves
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14922/mod_resource/content/12/Slides%20Aula%2020%20-%20Acesso%20Seguro%20com%20SSH%20por%20Chaves.pdf
+
+Finaliza com fluxos de firewall e gateway e TCP Wrappers
+
+21 Slides - TCPWrapers e Firewall gateway
+https://forceclass-00.linuxforce.com.br/pluginfile.php/14925/mod_resource/content/13/Slides%20Aula%2021%20-%20TCPWrapers%20e%20Firewall%20Gateway.pdf
+
+____________ Do minuto 41:56 ao 
+
+Neste treinamento, nos módulos, estão disponíveis links adicionais.
+
+Desafios após os slides, resoluções e conteúdos complementares.
+
+O fluxo de estudo não esta preso ao passo-a-passo como apresentam-se nos slides.
+
+O modo de aprendizado, é com prática em tempo real, fazendo juntos, a medida que vai sendo apresentado espera-se a aplicação imediata, evitar fazer posteriormente, surgindo problemas os troubleshootings são feitos aos pares com acompanhamento.
+
+Em determinadas etapas quando surgem dificuldades, como no instante que uma configuração esta sendo feita, aparecerem problemas, erros.
+
+Uma conexão remota pode ser feita pelo Rogério, com prévia autorização do aluno, para fazer uma análise da situação e sendo preciso, receber suporte, orientações, explicações.
+
+Mesmo fazendo parte do treinamento, problemas acontecerem, que podem ou precisem ser continuos.
+
+A MAIOR FONTE DE PROBLEMAS É PROVOCADA POR FALTA DE ATENÇÃO E ERROS DE DIGITAÇÃO.
+
+Alguns erros de sistema acontecem por uma palavra, comando digitados errados.
+
+Pede-se que: revisar o que foi digitado, e o que foi apresentado para copiar antes de pedir ajuda, para minimizarem os pedidos de ajuda.
+
+
+
+
 
